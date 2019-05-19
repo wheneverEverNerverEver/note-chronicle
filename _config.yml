@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   我在路边行走,也不知道为什么.
   低垂的树荫盖住水边的茅屋.有人正忙着工作,她的钏镯在一角放出音乐.
   我在茅屋前面站着,我不知道为什么.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "sunnyNote" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  tumemanques11
