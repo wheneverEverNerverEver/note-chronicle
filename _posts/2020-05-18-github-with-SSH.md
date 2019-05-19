@@ -8,7 +8,7 @@ summary: "当你新安装了 git 后 在使用时，提示 Permission denied (pu
 
 
 当 github 提示错误 Permission denied (publickey) 时
-![image](/assets/images/sshin.png)
+![image](/sunnyNote/assets/images/sshin.png)
 你可以尝试以下步骤
 
 #### 一、本地生成 SSH
@@ -18,7 +18,7 @@ summary: "当你新安装了 git 后 在使用时，提示 Permission denied (pu
 ssh-keygen -t rsa -b 4096 -C "email@example.com"
 ``` 
 回车键之后会有几个问题，你可以一直都按回车键
-![image](/assets/images/SSH.png)
+![image](/sunnyNote/assets/images/SSH.png)
 
 #### 二、将生成的 SSH 保存到 GitHub `Personal settings` 设置里的 `SSH keys`中
 
