@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/sunnyNote/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/sunnyNote/" rel="alternate" type="text/html" /><updated>2019-05-19T21:14:12+08:00</updated><id>http://localhost:4000/sunnyNote/feed.xml</id><title type="html">晴方笔记</title><subtitle>我在路边行走,也不知道为什么,时忆已过午,和竹枝在风中簌簌作响. 横斜的影子伸臂拖住流光的双足 布谷鸟都唱倦了. 我在路边行走,也不知道为什么. 低垂的树荫盖住水边的茅屋.有人正忙着工作,她的钏镯在一角放出音乐. 我在茅屋前面站着,我不知道为什么.</subtitle><entry><title type="html">关于 Jekyll 的初步使用</title><link href="http://localhost:4000/sunnyNote/tool/2019/05/19/begin-with-jekyll.html" rel="alternate" type="text/html" title="关于 Jekyll 的初步使用" /><published>2019-05-19T09:52:00+08:00</published><updated>2019-05-19T09:52:00+08:00</updated><id>http://localhost:4000/sunnyNote/tool/2019/05/19/begin-with-jekyll</id><content type="html" xml:base="http://localhost:4000/sunnyNote/tool/2019/05/19/begin-with-jekyll.html">&lt;p&gt;使用 GitHub pages 过程中，对于博客这类网站更合适的是一种方式是借用 jekyll 。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/sunnyNote/feed.xml" rel="self" type="application/atom+xml" /><link href="/sunnyNote/" rel="alternate" type="text/html" /><updated>2021-01-04T13:56:37+08:00</updated><id>/sunnyNote/feed.xml</id><title type="html">晴方笔记</title><subtitle>我在路边行走,也不知道为什么,时忆已过午,和竹枝在风中簌簌作响. 横斜的影子伸臂拖住流光的双足 布谷鸟都唱倦了. 我在路边行走,也不知道为什么. 低垂的树荫盖住水边的茅屋.有人正忙着工作,她的钏镯在一角放出音乐. 我在茅屋前面站着,我不知道为什么.</subtitle><entry><title type="html">关于 Jekyll 的初步使用</title><link href="/sunnyNote/tool/2019/05/19/begin-with-jekyll.html" rel="alternate" type="text/html" title="关于 Jekyll 的初步使用" /><published>2019-05-19T09:52:00+08:00</published><updated>2019-05-19T09:52:00+08:00</updated><id>/sunnyNote/tool/2019/05/19/begin-with-jekyll</id><content type="html" xml:base="/sunnyNote/tool/2019/05/19/begin-with-jekyll.html">&lt;p&gt;使用 GitHub pages 过程中，对于博客这类网站更合适的是一种方式是借用 jekyll 。&lt;/p&gt;
 
-&lt;p&gt;Jekyll 更关注博客的内容，之后的文件更新只需要更新目录下的某个文件夹里的内容即可（即&lt;code class=&quot;highlighter-rouge&quot;&gt;_post&lt;/code&gt;）。&lt;/p&gt;
+&lt;p&gt;Jekyll 更关注博客的内容，之后的文件更新只需要更新目录下的某个文件夹里的内容即可（即&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_post&lt;/code&gt;）。&lt;/p&gt;
 
 &lt;h4 id=&quot;环境安装&quot;&gt;环境安装&lt;/h4&gt;
 &lt;p&gt;关于 Jekyll 的环境及安装大致如下：&lt;/p&gt;
@@ -10,43 +10,43 @@
     &lt;p&gt;Jekyll 的运行环境需要 ruby ，详细的安装可以查看链接：&lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;环境准备&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;gem 可用之后， 安装 Jekyll ：&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll bundler&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;gem 可用之后， 安装 Jekyll ：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll bundler&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;然后命令行输入：&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog&lt;/code&gt; ，创建新的 Jekyll 项目在 &lt;code class=&quot;highlighter-rouge&quot;&gt;./myblog&lt;/code&gt; 中&lt;/p&gt;
+    &lt;p&gt;然后命令行输入：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new myblog&lt;/code&gt; ，创建新的 Jekyll 项目在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./myblog&lt;/code&gt; 中&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;切换到 &lt;code class=&quot;highlighter-rouge&quot;&gt;./myblog&lt;/code&gt; 中：&lt;code class=&quot;highlighter-rouge&quot;&gt; cd myblog&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;切换到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./myblog&lt;/code&gt; 中：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; cd myblog&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; 或者 &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; 运行你的 Jekyll，成功后就可访问到 http://localhost:4000&lt;/p&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; 或者 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; 运行你的 Jekyll，成功后就可访问到 http://localhost:4000&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;安装项目依赖&quot;&gt;安装项目依赖&lt;/h4&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle init&lt;/code&gt; 是在目录下没有 &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;文件的情况下生成该文件
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle init&lt;/code&gt; 是在目录下没有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;文件的情况下生成该文件
 如果需要寻找依赖的话，可以在 Ruby 社区的 Gem 托管服务 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems.org&lt;/a&gt; 中找到依赖，查看版本号等
-知道你需要的依赖是什么后，可以在 &lt;code class=&quot;highlighter-rouge&quot;&gt;./Gemfile&lt;/code&gt; 文件的中加入你的依赖信息&lt;/p&gt;
+知道你需要的依赖是什么后，可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./Gemfile&lt;/code&gt; 文件的中加入你的依赖信息&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  group :jekyll_plugins do
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  group :jekyll_plugins do
     gem &quot;jekyll-feed&quot;, &quot;~&amp;gt; 0.6&quot;
     gem &quot;jekyll-paginate&quot;,&quot;~&amp;gt; 1.0&quot;
   end
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;然后命令行执行 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; 安装依赖，安装成功后再修改 &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 文件里相应的内容即可&lt;/p&gt;
+&lt;p&gt;然后命令行执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; 安装依赖，安装成功后再修改 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 文件里相应的内容即可&lt;/p&gt;
 
 &lt;h4 id=&quot;主题&quot;&gt;主题&lt;/h4&gt;
 &lt;p&gt;当你按以上的成功访问到 localhost:4000 后，你可能会想更改主题或者在这个主题上修改出你要的效果&lt;/p&gt;
 
-&lt;p&gt;如果你是想更换一个主题，Jekyll 官网上推荐的网站是：&lt;a href=&quot;https://rubygems.org/search?utf8=%E2%9C%93&amp;amp;query=jekyll-theme&quot;&gt;主题&lt;/a&gt; ，找到你想要的主题之后，在你的 &lt;code class=&quot;highlighter-rouge&quot;&gt;./Gemfile&lt;/code&gt; 文件中 &lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;minima&quot;, &quot;~&amp;gt; X.0&quot;&lt;/code&gt; 的地方，将安装时默认的主题 &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;minima&quot;, &quot;~&amp;gt; X.0&quot;&lt;/code&gt;信息，换成你要的，然后通过命令行 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; 安装主题，再然后在目录下的 &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;文件中原先默认的 &lt;code class=&quot;highlighter-rouge&quot;&gt;theme: minima&lt;/code&gt; 改成你安装了的主题，之后运行项目即可。&lt;/p&gt;
+&lt;p&gt;如果你是想更换一个主题，Jekyll 官网上推荐的网站是：&lt;a href=&quot;https://rubygems.org/search?utf8=%E2%9C%93&amp;amp;query=jekyll-theme&quot;&gt;主题&lt;/a&gt; ，找到你想要的主题之后，在你的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./Gemfile&lt;/code&gt; 文件中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;minima&quot;, &quot;~&amp;gt; X.0&quot;&lt;/code&gt; 的地方，将安装时默认的主题 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;minima&quot;, &quot;~&amp;gt; X.0&quot;&lt;/code&gt;信息，换成你要的，然后通过命令行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; 安装主题，再然后在目录下的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;文件中原先默认的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme: minima&lt;/code&gt; 改成你安装了的主题，之后运行项目即可。&lt;/p&gt;
 
-&lt;p&gt;如果你要在主题上作出自己的修改，你需要用你项目中要修改的内容覆盖掉主题中默认的内容，这时，你可能需要知道主题的文件路径查看它的文件结构，你可以通过命令行 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle show XXXXX&lt;/code&gt;找到主题的路径，在理解了主题下的每个目录的意义和文件的作用之后，你就可以在你的项目下放相同的目录结构和文件命名，这样你的修改就可以在页面中展现了。&lt;/p&gt;
+&lt;p&gt;如果你要在主题上作出自己的修改，你需要用你项目中要修改的内容覆盖掉主题中默认的内容，这时，你可能需要知道主题的文件路径查看它的文件结构，你可以通过命令行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle show XXXXX&lt;/code&gt;找到主题的路径，在理解了主题下的每个目录的意义和文件的作用之后，你就可以在你的项目下放相同的目录结构和文件命名，这样你的修改就可以在页面中展现了。&lt;/p&gt;
 
 &lt;h4 id=&quot;分页&quot;&gt;分页&lt;/h4&gt;
 
-&lt;p&gt;根据安装项目依赖里的方法，将&lt;strong&gt;jekyll-paginate&lt;/strong&gt;安装并在 &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 中设置分页信息：&lt;/p&gt;
+&lt;p&gt;根据安装项目依赖里的方法，将&lt;strong&gt;jekyll-paginate&lt;/strong&gt;安装并在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 中设置分页信息：&lt;/p&gt;
 
 &lt;p&gt;paginate: 5
   paginate_path: “/blog/page:num/”&lt;/p&gt;
@@ -55,7 +55,7 @@
 
 &lt;p&gt;然后如下使用即可&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &amp;lt;!-- Pagination links --&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &amp;lt;!-- Pagination links --&amp;gt;
   &amp;lt;div class=&quot;pagination&quot;&amp;gt;
     {% if paginator.previous_page %}
       &amp;lt;a href=&quot;{{ paginator.previous_page_path }}&quot; class=&quot;previous&quot;&amp;gt;
@@ -77,10 +77,10 @@
 
 &lt;h4 id=&quot;博客发布&quot;&gt;博客发布&lt;/h4&gt;
 
-&lt;p&gt;在项目的 &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; 目录下添加 &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.md&lt;/code&gt;这类命名的文件：&lt;/p&gt;
+&lt;p&gt;在项目的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; 目录下添加 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.md&lt;/code&gt;这类命名的文件：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention  and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+  &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention  and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h4 id=&quot;更多&quot;&gt;更多&lt;/h4&gt;
@@ -88,29 +88,29 @@
 &lt;p&gt;在 Jekyll 中使用了 &lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;Liquid&lt;/a&gt; 模版
 比如日期的格式:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  {{ article.published_at | date: &quot;%a, %b %d, %y&quot; }}
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  {{ article.published_at | date: &quot;%a, %b %d, %y&quot; }}
   {{ &quot;now&quot; | date: &quot;%Y-%m-%d %H:%M&quot; }}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">使用 GitHub pages 过程中，对于博客这类网站更合适的是一种方式是借用 jekyll 。</summary></entry><entry><title type="html">github SSH</title><link href="http://localhost:4000/sunnyNote/tool/2019/05/18/github-with-SSH.html" rel="alternate" type="text/html" title="github SSH" /><published>2019-05-18T09:52:00+08:00</published><updated>2019-05-18T09:52:00+08:00</updated><id>http://localhost:4000/sunnyNote/tool/2019/05/18/github-with-SSH</id><content type="html" xml:base="http://localhost:4000/sunnyNote/tool/2019/05/18/github-with-SSH.html">&lt;p&gt;当 github 提示错误 Permission denied (publickey) 时
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="tool" /><summary type="html">使用 GitHub pages 过程中，对于博客这类网站更合适的是一种方式是借用 jekyll 。</summary></entry><entry><title type="html">github SSH</title><link href="/sunnyNote/tool/2019/05/18/github-with-SSH.html" rel="alternate" type="text/html" title="github SSH" /><published>2019-05-18T09:52:00+08:00</published><updated>2019-05-18T09:52:00+08:00</updated><id>/sunnyNote/tool/2019/05/18/github-with-SSH</id><content type="html" xml:base="/sunnyNote/tool/2019/05/18/github-with-SSH.html">&lt;p&gt;当 github 提示错误 Permission denied (publickey) 时
 &lt;img src=&quot;/sunnyNote/assets/images/sshin.png&quot; alt=&quot;image&quot; /&gt;
 你可以尝试以下步骤&lt;/p&gt;
 
 &lt;h4 id=&quot;一本地生成-ssh&quot;&gt;一、本地生成 SSH&lt;/h4&gt;
 
 &lt;p&gt;命令行输入&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-keygen -t rsa -b 4096 -C &quot;email@example.com&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-keygen -t rsa -b 4096 -C &quot;email@example.com&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;回车键之后会有几个问题，你可以一直都按回车键
 &lt;img src=&quot;/sunnyNote/assets/images/SSH.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;二将生成的-ssh-保存到-github-personal-settings-设置里的-ssh-keys中&quot;&gt;二、将生成的 SSH 保存到 GitHub &lt;code class=&quot;highlighter-rouge&quot;&gt;Personal settings&lt;/code&gt; 设置里的 &lt;code class=&quot;highlighter-rouge&quot;&gt;SSH keys&lt;/code&gt;中&lt;/h4&gt;
+&lt;h4 id=&quot;二将生成的-ssh-保存到-github-personal-settings-设置里的-ssh-keys中&quot;&gt;二、将生成的 SSH 保存到 GitHub &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Personal settings&lt;/code&gt; 设置里的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SSH keys&lt;/code&gt;中&lt;/h4&gt;
 
 &lt;p&gt;这里你可以使用这一条命令粘贴上一步生成的 SSH key&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pbcopy &amp;lt; ~/.ssh/id_rsa.pub
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pbcopy &amp;lt; ~/.ssh/id_rsa.pub
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;需要注意 &lt;code class=&quot;highlighter-rouge&quot;&gt;pbcopy&lt;/code&gt; 后的路径，如果你在上一步生成 SSH 的命令下对这个问题&lt;code class=&quot;highlighter-rouge&quot;&gt;Enter file in which to save the key (/Users/zhouzhou/.ssh/id_rsa):&lt;/code&gt; 没有做更改的话，你可以直接用复制的命令。&lt;/p&gt;
+&lt;p&gt;需要注意 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pbcopy&lt;/code&gt; 后的路径，如果你在上一步生成 SSH 的命令下对这个问题&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enter file in which to save the key (/Users/zhouzhou/.ssh/id_rsa):&lt;/code&gt; 没有做更改的话，你可以直接用复制的命令。&lt;/p&gt;
 
-&lt;p&gt;最后，你只需在 github 设置中的 &lt;code class=&quot;highlighter-rouge&quot;&gt;SSH and GPG keys&lt;/code&gt; 中，通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;new SSH key&lt;/code&gt; 或者 &lt;code class=&quot;highlighter-rouge&quot;&gt;Add SSH key&lt;/code&gt; 按钮添加即可。&lt;/p&gt;
+&lt;p&gt;最后，你只需在 github 设置中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SSH and GPG keys&lt;/code&gt; 中，通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new SSH key&lt;/code&gt; 或者 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Add SSH key&lt;/code&gt; 按钮添加即可。&lt;/p&gt;
 
-&lt;p&gt;更详细的步骤：&lt;a href=&quot;https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account&quot;&gt;github 官方&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">当 github 提示错误 Permission denied (publickey) 时 你可以尝试以下步骤</summary></entry></feed>
+&lt;p&gt;更详细的步骤：&lt;a href=&quot;https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account&quot;&gt;github 官方&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="tool" /><summary type="html">当 github 提示错误 Permission denied (publickey) 时 你可以尝试以下步骤</summary></entry></feed>

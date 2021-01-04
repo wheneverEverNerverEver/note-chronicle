@@ -8,12 +8,13 @@
   overflow: hidden;
   // Positioning context for the mobile navigation icon
   position: relative;
+  background:$grey-color-dark;
   &::after,&::before{
     content:'';
     display:block;
     width:35px;
     height: 35px;
-    background:$grey-color-dark;
+    background:$background-color;
     border-radius: 50%  ;
     -webkit-border-radius: 50%  ;
     -moz-border-radius: 50%  ;
@@ -42,7 +43,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $background-color;
   }
 }
 
@@ -130,6 +131,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: 0 $spacing-unit 0 0;
+  overflow: hidden;
 }
 .footer-bottom{
   padding-top:$spacing-unit;
@@ -229,6 +231,21 @@
 
   > li {
     margin-bottom: $spacing-unit;
+  }
+  h3{
+    position: relative;
+    &::after{
+      display: block;
+      position: absolute;
+      content:'';
+      width:5px;
+      height:5px;
+      border-radius: 50%;
+      background-color: $grey-color-light;
+      left:-20px;
+      top:50%;
+      transform: translateY(-50%);
+    }
   }
 }
 
